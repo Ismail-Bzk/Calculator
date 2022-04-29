@@ -15,10 +15,8 @@ int main(int argc, char *argv[]) {
  		fprintf(stderr,"Can’t open display\n");
 		return EXIT_FAILURE;
  	}
-// intialliser la donnée partagée entre le modèle
-// et l’IG
- 	
-// créer l’IG et l’afficher à l’écran
+// intitialize data shares between template and IG 	
+// Create IG and display it on screen
  	init_display(argc, argv, &d);
  	MainLoop();
 	return EXIT_SUCCESS;

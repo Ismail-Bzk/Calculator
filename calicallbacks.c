@@ -148,7 +148,6 @@ void fres(Widget w, void *d) {
 	ClearDrawArea();
 	
 	drawing(d);
-	//afficherRes(d);
 }
 
 void fsupp(Widget w, void *d) {
